@@ -16,7 +16,7 @@ function ReporteVentasDiarias() {
 
     const fetchData = async () => {
       try {
-        let url = 'http://localhost:8000/ventas-diarias/';
+        let url = 'https://reporte-b-stech.onrender.com/ventas-diarias/';
         let parametros = [];
 
         // if (filtroCanal) {
